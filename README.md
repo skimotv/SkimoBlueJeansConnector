@@ -32,5 +32,10 @@ For each function - summarize step by step how the function works at a user leve
 Must used a registered BlueJeans Account
 
 ## Retreiving List of User ID's
-Use GET[https://api.bluejeans.com/v1/user/{userID}/meeting_history]
+Use GET https://api.bluejeans.com/v1/user/{userID}/tags. This would show all the ID's which have attended a particular meeting
+
+## Retrieving List of Joined Meetings
+Use GET https://api.bluejeans.com/v1/user/{user_ID}/meetings/{meeting ID}/numbers
+
+
 
