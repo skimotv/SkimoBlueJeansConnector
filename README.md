@@ -8,3 +8,5 @@ The connector extends the SkimoConnectorTemplate, which utilizes Springboot and 
 The connector uses the BlueJeans REST API to obtain data.
 
 Visit the Skimo Website to test functionality.
+
+
