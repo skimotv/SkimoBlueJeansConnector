@@ -1,5 +1,5 @@
 # Overview
-# SkimoBlueJeansConnector
+## SkimoBlueJeansConnector
 This repository has the connector to connect to the Blue Jeans conference service provider
 
 The connector extends the SkimoConnectorTemplate, which utilizes Springboot and Thymeleaf
