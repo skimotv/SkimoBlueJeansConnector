@@ -11,5 +11,5 @@ The connector uses the BlueJeans REST API to obtain data.
 Visit the Skimo Website to test functionality.
 
 ## Functional Capabilities
-### FULL ELABORATION FOR FUNCTIONS LISTED IN NEXT SECTION
+## FULL ELABORATION FOR FUNCTIONS LISTED IN NEXT SECTION
 
