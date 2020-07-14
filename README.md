@@ -26,4 +26,4 @@ Allow user to select a recording and upload recording to the Skimo server
 
 # Specific Functions
 For each function - summarize step by step how the function works at a user level (UI inputs outputs)
-`code`- summarize the code used to achieve said functionality 
+      - summarize the code used to achieve said functionality 
