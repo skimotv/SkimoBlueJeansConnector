@@ -27,3 +27,10 @@ Allow user to select a recording and upload recording to the Skimo server
 # Specific Functions
 For each function - summarize step by step how the function works at a user level (UI inputs outputs)
       - summarize the code used to achieve said functionality 
+      
+## BlueJeans LogIn Using OAuth 2.0
+Must used a registered BlueJeans Account
+
+## Retreiving List of User ID's
+Use GET[title](https://api.bluejeans.com/v1/user/{userID}/meeting_history)
+
