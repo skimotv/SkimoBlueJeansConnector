@@ -32,10 +32,19 @@ For each function - summarize step by step how the function works at a user leve
 Must used a registered BlueJeans Account
 
 ## Retreiving List of User ID's
-Use GET https://api.bluejeans.com/v1/user/{userID}/tags. This would show all the ID's which have attended a particular meeting
-
+Use GET https://api.bluejeans.com/v1/user/{userID}/tags. This shows all the users who have joined a meeting. 
 ## Retrieving List of Joined Meetings
-Use GET https://api.bluejeans.com/v1/user/{user_ID}/meetings/{meeting ID}/numbers
+Use GET https://api.bluejeans.com/v1/user/{userID}/meeting_history/recordings?pageSize=10&pageNumber=1&sortBy=start_time&order=desc. This shows all the meetings a user has joined.
+## Retrieving List of Recordings
+Use GET https://api.bluejeans.com/v1/user/{userID}/meeting_history/{meetingID}/recordings. This shows all the recordings within a meeting. 
+## Display List of Calls in Skimo
+## Meetings Select and Upload
+# Source
+http://https://bluejeans.github.io/api-rest-meetings/site/index.html
+# Contributing & Support
+We'd love that you contribute to the project. Before doing so, please contact vishruth.mattegunta@sjsu.edu for more info.
+
+
 
 
 
